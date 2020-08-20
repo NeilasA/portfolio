@@ -1,7 +1,11 @@
 $headercolor: grey;
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 
 .App {
   text-align: left;
+  
 
   .App-header {
     background-color: $headercolor;
