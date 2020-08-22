@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { MenuItems } from './MenuItems';
 import './Navbar.scss';
+import { Button } from '../Button';
 
 class Navbar extends Component {
     state = { clicked: false}
@@ -27,6 +28,7 @@ class Navbar extends Component {
                         )
                     })}              
                 </ul>
+                <Button>Sign Up</Button>
             </nav>
         )
     }
