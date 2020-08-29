@@ -1,0 +1,81 @@
+.Contact-header {
+    height: 85vh;
+    top: 10vh;
+    width: 100%;   
+    //overflow: hidden;
+}
+
+.Contact{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Contact-ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.Contact-li{
+    position: relative;
+    list-style: none;
+    width: 100px;
+    height: 100px;
+    margin: 0 60px;
+    transform: rotate(-30deg) skew(25deg);
+}
+
+.Contact-li span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.Contact-li:hover span:nth-child(5){
+    transform: translate(40px, -40px);
+    opacity: 1;
+}
+.Contact-li:hover span:nth-child(4){
+    transform: translate(30px, -30px);
+    opacity: 0.8;
+}
+.Contact-li:hover span:nth-child(3){
+    transform: translate(20px, -20px);
+    opacity: 0.6;
+}
+.Contact-li:hover span:nth-child(2){
+    transform: translate(10px, -10px);
+    opacity: 0.4;
+}
+.Contact-li:hover span:nth-child(1){
+    transform: translate(0px, -0px);
+    opacity: 0.2;
+}
+
+.Contact-li:nth-child(1) span{
+    background: #2867B2
+}
+
+.Contact-li:nth-child(2) span{
+    background: #211F1F
+}
+
+.Contact-li:nth-child(3) span{
+    background: #c71610
+}
