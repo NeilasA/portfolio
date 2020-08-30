@@ -3,6 +3,7 @@ import './landingPage.scss';
 import Slider from '../Carousel/Slider';
 import Contact from '../GetInTouch/LayeredContactButton';
 
+
 function LandingPage() {
     return (    
     <div className="LandingPage" >  
@@ -26,7 +27,7 @@ function LandingPage() {
           <h1 className="PageText" >_Projects</h1>
           <Slider/> 
         </div> 
-          <h1 className="PageText">_Get In Touch</h1>
+          <h1 className="PageText" id="/contact">_Get In Touch</h1>
         <Contact/>
       </div>
       

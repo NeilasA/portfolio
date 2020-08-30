@@ -1,4 +1,4 @@
-$myColor: black;
+$myColor: white;
 $textColor:rgb(38, 18, 214);
 *{
   font-family: 'Montserrat', sans-serif;
@@ -88,33 +88,25 @@ $textColor:rgb(38, 18, 214);
   pointer-events: none;
 }
 
-// .line{
-//   overflow: hidden;
-//   transform: translateY(-50%);
-// }
-
-// .anim-typewriter{
-//   animation: typewriter 4s steps(40) 1s 1 normal both,
-//   blinkTextCursor 500ms steps(40) infinite normal;
-// }
-// @keyframes typewriter {
-//   from {
-//     width: 0em;
-//   }
-//   to {
-//     width: 16em;
-//   }
-// }
-// @keyframes blinkTextCursor {
-//   from {
-//     border-right-color: rgba (255, 255, 255, 0.75);
-//   }
-//   to {
-//     border-right-color: transparent;
-//   }
-// }
-
 .LandingPage-link {
   color: #61dafb;
 }
 
+@media screen and (max-width: 1244px){
+  .AboutMe{
+  margin-bottom: 15vh;
+  font-size: 1.2rem;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 15vh;
+  }
+  .PageTextAboutMe{
+
+    margin-bottom: 15vh;
+    color:$textColor;
+  }
+  .MainText {
+    color:$textColor;
+    display: inline;
+  }
+}

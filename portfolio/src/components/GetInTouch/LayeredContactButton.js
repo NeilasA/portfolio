@@ -3,7 +3,7 @@ import './LayeredContact.scss';
 
 function Contact() {
   return (    
-    <div className="Contact-header" id="/contact" > 
+    <div className="Contact-header" > 
         <div className="Contact" >
             <ul className="Contact-ul">
                 <li className="Contact-li">
@@ -12,7 +12,7 @@ function Contact() {
                         <span></span>
                         <span></span>
                         <span></span>
-                        <span className="fa fa-linkedin-square" aria-hidden="true"></span>
+                        <span className="fab fa-linkedin-in" aria-hidden="true"></span>
                     </a>
                 </li>
                 <li className="Contact-li">
@@ -21,7 +21,7 @@ function Contact() {
                         <span></span>
                         <span></span>
                         <span></span>
-                        <span className="fa fa-github" aria-hidden="true"></span>
+                        <span className="fab fa-github" aria-hidden="true"></span>
                     </a>
                 </li>
                 <li className="Contact-li">

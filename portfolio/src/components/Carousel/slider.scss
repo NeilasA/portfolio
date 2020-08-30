@@ -8,15 +8,15 @@
     overflow: hidden;
     margin-bottom: 15vh;
     i{
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 }
 
 .slide {
     position: relative;
-    min-width: 50%;
+    min-width: 60%;
     right: 0%;
-    margin: 25%;
+    margin: 20%;
     height: 100%;
     box-sizing: border-box;
     transition: 0.5s;
@@ -24,7 +24,6 @@
         //color: rgba(0, 0, 0, 0.550);
         z-index: 1;
         cursor: pointer;
-
         //transform: scale(1.2); 
         //transition: all .5s ease-in-out; 
     }
@@ -34,29 +33,39 @@
 %btn-styles{
     position: absolute;
     width: 10%;
-    top:20vh;
+    top:25vh;
     height: 20%;
+    color: #fff;
     background: none;
     transform: translate(0);
     border: none;
     outline: none;
-    transition: 0.5s;
+    transition: 0.7s;
     &:hover {
         //background: rgba(0, 0, 0, 0.350);
         cursor: pointer;
         i{
-            color: gray;
+            color:gray;
         }
     }
 }
 
 #goLeft {
-    left: 15vh;   
+    left: 20vh;   
     @extend %btn-styles;
 }
 
 #goRight {
-    right: 15vh;
+    right: 20vh;
     @extend %btn-styles;
 
+}
+
+@media screen and (max-width: 1244px){
+    .slider{
+        height: 30vh;
+        i{
+            font-size: 3.5vw;
+        }
+    }
 }
